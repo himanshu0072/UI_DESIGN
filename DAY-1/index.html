@@ -11,19 +11,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Day - 1 </title>
+    <style>
+        .box {
+            background: linear-gradient(-45deg, red, yellow);
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            margin-left: 50%;
+            margin-top: 50vh;
+            transform: translate(-50%, -50%);
+            transition: 1s;
+            transition: margin-top 1s;
+        }
+
+        .box:hover {
+            scale: 1;
+            margin-top: calc(50vh + 130px);
+            background: linear-gradient(-45deg, yellow, red);
+
+        }
+    </style>
 </head>
 
 <body style="background-color: antiquewhite;">
 
-    <div style="background-color: rgb(19, 170, 115);
-                width:200px;
-                height:200px;
-                border-radius:10px;
-                margin-left:50%;
-                
-                transform:translate(-50%, 120%);
-                
-                "></div>
+    <div class="box">
+        <!-- <h1 class="name">Himanshu</h1> -->
+    </div>
 
 </body>
 
