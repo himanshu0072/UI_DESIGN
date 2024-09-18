@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    
+}
+
+/* .text{
+    font-size: 120px;
+    -webkit-text-stroke: 4px transparent;
+    background: linear-gradient(120deg,red, yellow);
+    color: white;
+    background-image: url("https://static.wixstatic.com/media/ed506e_2b209ddf79fb4800852456892c3752a9~mv2.jpg/v1/fill/w_668,h_268,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ed506e_2b209ddf79fb4800852456892c3752a9~mv2.jpg");
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+} */
+
+/* .text::selection{
+    color: white;
+    background-color: black;
+} */
+
+.mask{ 
+    height: auto;
+    width: 400px;
+    mask-image: url("./mask1.png");
+}

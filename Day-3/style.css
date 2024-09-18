@@ -70,7 +70,7 @@
     }
   }  */
 
-  /* .container{
+  .container{
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -102,7 +102,7 @@
 .box:hover{
     width: 100%;
     
-} */
+}
 
 
 /* 
@@ -111,8 +111,8 @@ flex box
 
  display: flex
  flex-direction: row | column | row-reverse | column-reverse
- jsutify-content : center | flex-start | flex-end | space-between | space-around | space-evenly 
- align-items:  center | flex-start | flex-end | space-between | space-around | space-evenly
+ jsutify-content : center | flex-start | flex-end | space-between | space-around | space-evenly | base-line
+ align-items:  center | flex-start | flex-end | space-between | space-around | space-evenly | base-line
 
 
 
@@ -131,7 +131,7 @@ home work
 
 */
 
-body{
+/* body{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -185,4 +185,4 @@ body{
   width: 50%;
   height: 100%;
   gap: 5px;
-}
+} */
