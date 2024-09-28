@@ -27,5 +27,12 @@
 .mask{ 
     height: auto;
     width: 400px;
-    mask-image: url("./mask1.png");
+    /* mask-image: url("./mask1.png"); */
+    filter: drop-shadow(0px 0px 10px rgb(4, 3, 3));
+    transition: 1s;
+}
+
+
+.mask:hover{
+    transform: scale(1.2);
 }

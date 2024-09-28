@@ -1,0 +1,52 @@
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.sun{
+    background: linear-gradient(120deg, rgb(238, 167, 36), red);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 80px 20px orange;
+}
+
+.sun:hover{
+    transform: rotate(80deg);
+    transition: 1s;
+    animation-name: anim;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    /* transform: scale(1.1); */
+}
+
+@keyframes anim {
+    0%{
+        transform: rotate(0deg) scale(1);
+    }
+
+    50%{
+        transform: rotate(0deg) scale(1.4);
+    }
+    100%{
+        transform: rotate(360deg) scale(1);
+    } 
+}
+
+
+
+/* animation
+
+
+- transition
+- keyframe
+- GSAP
+- 
+
+
+*/
